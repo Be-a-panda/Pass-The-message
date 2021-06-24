@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+    font-family: cursive;
+}
+  body {
+    background: lightslategray;
+  }
+  .message-container {
+    background: white;
+    height: 22rem;
+    width: 50rem;
+    margin-top: 12rem;
+    margin-left: 15rem;
+  }
+  .msg{
+      text-transform: capitalize;
+      font-size: 1.3rem;
+      padding-top: 2rem;
+  }
+  .message-content {
+    color: lightslategray;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  #message{
+      height: 2.5rem;
+      width: 35rem;
+      margin-top: 0.1rem;
+      font-size: 1.5rem;
+      color: darkgray;
+  }
+  #submitBtn {
+    background: lightslategray;
+    color: white;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-top: 1.5rem;
+    border-style: none;
+    font-size: 1.1rem;
+  }
+  #submitBtn:hover {
+    color: black;
+  }
+  .feedback {
+    display: none;
+    font-size: 1.5rem;
+    color: red;
+  }
+  .show {
+    display: block;
+  }
+  
